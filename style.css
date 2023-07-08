@@ -1,4 +1,7 @@
 /* primary related style */
+*{
+    margin: 0;
+}
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -24,14 +27,16 @@ body {
 /* nav related style */
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin: 0px 100px;
 }
 
 .nav-title {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
+    
 }
 
 nav>ul {
@@ -48,4 +53,57 @@ nav a {
     text-decoration: none;
     color: #474747;
     
+}
+
+/* header related style */
+.nav-head{
+    padding-top: 25px;
+    background: #FFF8F3;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    display: flex;
+}
+.dev-img{
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.banner-lowtext{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 0px;
+}
+.banner-main-heading{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner{
+    padding: 30px 30px 0px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.banner-content{
+    
+}
+.banner-descr{
+    margin-bottom: 49px;
+    min-height: 60px;
+    max-width: 585px;
+}
+.banner .profile-picture{
+    width: 600px;
+    height: 710px;
+    padding-left: 500px;
+}
+.contact{
+    background-color: white;
+    color: #FD6E0A;
+    margin-left: 20px;
+    border: 2px solid #FD6E0A;
 }
