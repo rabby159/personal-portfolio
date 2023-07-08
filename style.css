@@ -37,8 +37,22 @@ body {
     font-size: 18px;;
     font-weight: 400;
 }
+/* header related style */
 
-/* nav related style */
+/* nav section style  */
+.nav-head{
+    padding-top: 25px;
+    background: #FFF8F3;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    display: flex;
+}
+.dev-img{
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -66,23 +80,9 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
-    
 }
 
-/* header related style */
-.nav-head{
-    padding-top: 25px;
-    background: #FFF8F3;
-    background-image: url(images/header_bg.png);
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    display: flex;
-}
-.dev-img{
-    padding-left: 25px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
+/* banner section style  */
 .banner-lowtext{
     font-size: 45px;
     font-weight: 600;
@@ -127,6 +127,7 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+
 /* about section style  */
 .about{
     padding: 130px;
@@ -150,3 +151,31 @@ main{
 .info h3{
     color: #474747;
 }
+
+/* what id do section style  */
+#wid-descr{
+    padding: 30px 150px;
+}
+.skill-container{
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    padding-bottom: 130px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.08);
+}
+.skill-title{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.skill-descr{
+    padding: 20px;
+    color: #757575;
+}
+
+/* resume section style  */
